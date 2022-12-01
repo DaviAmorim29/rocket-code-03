@@ -1,1 +1,56 @@
-// TODO
+.imgContainer {
+  overflow: hidden;
+  margin-top: 40px;
+  height: 400px;
+  width: 100%;
+  img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100%;
+    transition: all 0.5s ease;
+  }
+}
+
+.header {
+  h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    letter-spacing: -0.5px;
+    color: #F8F8F8
+  }
+  > div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 24px;
+    color: #BBBBBB;
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+  }
+}
+
+.content {
+  margin-top: 64px;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+    color: #F8F8F8;
+  }
+  .text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    // letter-spacing: ;
+    text-align: justify;
+    color: #D7D7D7;
+  }
+}
